@@ -2,3 +2,5 @@
 syn match cssFontProp contained "\<\(-\(webkit\|moz\|o\|ms\)-\)\=box-\(align\|direction\|flex\|flex-group\|lines\|ordinal-group\|orient\|pack\)\>"
 syn keyword cssFontAttr contained stretch single multiple
 syn match cssFontAttr contained "\<\(inline\|box\)-axis\>"
+syn match cssRenderProp contained "\<\(-\(webkit\|moz\|o\|ms\)-\)\=\(box\|flexbox\)\>"
+syn match cssRenderAttr contained "\<inline-block\>"
