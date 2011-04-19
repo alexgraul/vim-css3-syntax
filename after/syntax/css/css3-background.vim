@@ -4,4 +4,3 @@ syn match cssFontProp contained "\<\(-\(webkit\|moz\|o\|ms\)-\)\=border-image\(-
 syn match cssFontProp contained "\<\(-\(webkit\|moz\|o\|ms\)-\)\=border-\(\(top-right\|bottom-right\|bottom-left\|top-left\)-\)\=radius\>"
 syn match cssFontProp contained "\<\(-\(webkit\|moz\|o\|ms\)-\)\=box-\(decoration-break\|shadow\)\>"
 syn keyword cssFontAttr contained stretch round fill alice clone
-syn region cssFunction contained matchgroup=cssFunctionName start="\<\(-\(webkit\|moz\|o\|ms\)-\)\=\(repeating-\)\=\(linear-\|radial-\)\=gradient\s*(" end=")" keepend
